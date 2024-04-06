@@ -5,7 +5,7 @@ import numpy as np
 #w2v_model = Word2Vec.load("models/model_pei")
 #w2v_model = Word2Vec.load("models/model_acta")
 #w2v_model = Word2Vec.load("models/model_acta99_19")
-model = Word2Vec.load("models/model_Yin")
+model = Word2Vec.load("/home/etica/Project/alloy2vec/alloy2vec/training/models/1model_with_wx_process_parallel")
 
 #model = gensim.models.Word2Vec.load_word2vec_format(model_path, binary=True)
 with open( 'tensorsfp', 'w+') as tensors:
